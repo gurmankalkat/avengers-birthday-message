@@ -1,0 +1,62 @@
+body{
+  display:flex;
+  justify-content: center;
+  background-color: #d7e8f5;
+  font-family: 'Bangers', cursive;
+}
+h1{
+  font-size: 40px;
+}
+.personalInfo{
+  display:flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.name{
+  border: 1px solid black;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  margin-right:20px;
+  color: black;
+  padding: 1px 2px;
+}
+.avenger{
+  border: 1px solid black;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  margin-left: 5px;
+  color: black;
+  padding: 2px 2px;
+}
+.submit-btn{
+  display: flex;
+  margin-left: 40%;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  color: black;
+  padding: 1px 2px;
+}
+.submit-btn:hover{
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.birthMessage{
+  color: #12095e;
+  background: #fff;
+}
+.completeMessage{
+  display:flex;
+  justify-content: center;
+}
+.avengersPic{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+
+}
